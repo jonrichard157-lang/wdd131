@@ -1,0 +1,64 @@
+/* 1. Configurações Gerais e Grid Principal */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Cria duas colunas: main (mais larga) e aside (mais estreita) */
+  min-height: 100vh;
+}
+
+/* 2. Cabeçalho e Rodapé ocupando tela toda */
+header, footer {
+  grid-column: 1 / -1; /* Força os elementos a ocuparem todas as colunas do Grid (de ponta a ponta) */
+}
+
+/* 3. Estilos do Cabeçalho (Header) */
+header {
+  background-color: #333333; /* Fundo cinza escuro da parte superior */
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  padding: 15px 10px 60px 50px;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+/* 4. Navegação usando Flexbox */
+nav ul {
+  display: flex;
+  justify-content: space-around; /* Distribui os links uniformemente */
+  background-color: #000000; /* Fundo preto da barra de links */
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* 5. Área de Conteúdo Principal (Main) */
+main {
+  background-color: #cccccc; /* Fundo cinza claro */
+  padding: 20px 80px 350px 80px; /* Espaçamento interno: 20px topo, 80px laterais, 100px base */
+}
+
+/* 6. Barra Lateral (Aside) */
+aside {
+  background-color: #ffffff; /* Fundo branco */
+  padding: 20px 80px 100px 60px;
+}
+
+/* 7. Rodapé (Footer) */ 
+footer {
+  background-color: #333333; /* Fundo cinza escuro */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
