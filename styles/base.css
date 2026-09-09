@@ -1,0 +1,172 @@
+/* Root Variables for Colors, Fonts, and Spacing */
+:root {
+    --primary-color: #1a365d;
+    --secondary-color: #1a4a82;
+    --accent-color: #ecc94b;
+    --hover-bg: #bee3f8;
+    --hover-color: #1a365d;
+    --text-color: #2d3748;
+    --light-text: #ffffff;
+    --bg-color: #f7fafc;
+    --card-bg: #ffffff;
+    --border-color: #e2e8f0;
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Global Reset & Base Typography */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    text-align: center;
+}
+
+/* Course Title: Display block to center logo & text easily */
+#course-title {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1.25rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+/* Navigation: CSS Flex */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0f2440;
+}
+
+nav a {
+    display: block;
+    flex: 1;
+    padding: 0.85rem 1rem;
+    color: var(--light-text);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Navigation Hover & Focus Effect */
+nav a:hover,
+nav a:focus {
+    background-color: var(--hover-bg);
+    color: var(--hover-color);
+}
+
+/* Main Layout: Limited width, centered horizontally, CSS Grid */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.25rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+}
+
+main h1 {
+    grid-column: 1 / -1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+/* Cards */
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    background-color: var(--secondary-color);
+    color: var(--light-text);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    padding: 0.75rem 1rem;
+    text-align: center;
+}
+
+.card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.25rem auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    object-fit: cover;
+}
+
+.card p {
+    padding: 0 1.25rem 1.25rem;
+    color: var(--text-color);
+    font-size: 0.95rem;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin: 0.4rem 0;
+    font-size: 0.95rem;
+}
+
+#lastModified {
+    color: var(--accent-color);
+    font-size: 0.85rem;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        margin: 1rem auto;
+    }
+
+    #course-title {
+        font-size: 1.3rem;
+    }
+
+    main h1 {
+        font-size: 1.6rem;
+    }
+}
