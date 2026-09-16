@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album – WDD 131 – João Ricardo Ribeiro da Silva</title>
+    <meta name="description" content="Temple Album - WDD 131 - João Ricardo Ribeiro da Silva. Responsive photo gallery showcasing temples with CSS Grid, Flexbox navigation, and JavaScript hamburger menu.">
+    <meta name="author" content="João Ricardo Ribeiro da Silva">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <span id="album-title">Temple Album</span>
+        <button id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+        <nav id="primary-nav">
+            <a href="#" class="active">Home</a>
+            <a href="#">Old</a>
+            <a href="#">New</a>
+            <a href="#">Large</a>
+            <a href="#">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+        <div class="gallery">
+            <figure>
+                <img src="images/temple.jpg" alt="Salt Lake Utah Temple" width="400" height="300">
+                <figcaption>Salt Lake Utah Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="São Paulo Brazil Temple" width="400" height="300" loading="lazy">
+                <figcaption>São Paulo Brazil Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Rome Italy Temple" width="400" height="300" loading="lazy">
+                <figcaption>Rome Italy Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Paris France Temple" width="400" height="300" loading="lazy">
+                <figcaption>Paris France Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Tokyo Japan Temple" width="400" height="300" loading="lazy">
+                <figcaption>Tokyo Japan Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Laie Hawaii Temple" width="400" height="300" loading="lazy">
+                <figcaption>Laie Hawaii Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Bern Switzerland Temple" width="400" height="300" loading="lazy">
+                <figcaption>Bern Switzerland Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="San Diego California Temple" width="400" height="300" loading="lazy">
+                <figcaption>San Diego California Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Aba Nigeria Temple" width="400" height="300" loading="lazy">
+                <figcaption>Aba Nigeria Temple</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | João Ricardo Ribeiro da Silva | São Paulo, Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
