@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazil - Country Overview | WDD 131</title>
+    <meta name="description" content="Explore key facts and weather information about Brazil for WDD 131 Dynamic Web Fundamentals.">
+    <meta name="author" content="João Ricardo Ribeiro da Silva">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Brazil</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
+                <img src="images/hero-small.webp" alt="Landscape in Brazil" width="500" height="300">
+            </picture>
+        </div>
+
+        <section class="card data-card">
+            <h2>Data</h2>
+            <ul>
+                <li><span class="label">Area:</span> <span class="value">8,515,767 sq km</span></li>
+                <li><span class="label">Population:</span> <span class="value">215,313,498</span></li>
+                <li><span class="label">Capital:</span> <span class="value">Brasília</span></li>
+                <li><span class="label">Languages:</span> <span class="value">Portuguese</span></li>
+                <li><span class="label">Currency:</span> <span class="value">Brazilian Real (BRL)</span></li>
+                <li><span class="label">Time Zone:</span> <span class="value">UTC-3 (BRT)</span></li>
+                <li><span class="label">Calling Code:</span> <span class="value">+55</span></li>
+                <li><span class="label">Internet TLD:</span> <span class="value">.br</span></li>
+            </ul>
+        </section>
+
+        <section class="card weather-card">
+            <h2 class="weather-title">Weather</h2>
+            <div class="weather-icon-container">
+                <img src="images/weather.svg" alt="Partly cloudy weather icon" class="weather-icon" width="64" height="64">
+            </div>
+            <ul>
+                <li><span class="label">Temperature:</span> <span class="value" id="temperature">10</span> °C</li>
+                <li><span class="label">Conditions:</span> <span class="value">Partly Cloudy</span></li>
+                <li><span class="label">Wind:</span> <span class="value" id="windSpeed">10</span> km/h</li>
+                <li><span class="label">Wind Chill:</span> <span class="value" id="windChill">N/A</span></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | João Ricardo Ribeiro da Silva | São Paulo, Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
