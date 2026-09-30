@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading Demonstration – WDD 131</title>
+    <meta name="description" content="Demonstration of responsive image lazy loading and CSS fade-from-black animation for WDD 131 by João Ricardo Ribeiro da Silva.">
+    <meta name="author" content="João Ricardo Ribeiro da Silva">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Lazy Loading Demonstration</h1>
+        <img src="https://picsum.photos/400/600?random=1" alt="Scenic nature portrait image 1" loading="lazy" width="400" height="600">
+        <img src="https://picsum.photos/400/600?random=2" alt="Scenic nature portrait image 2" loading="lazy" width="400" height="600">
+        <img src="https://picsum.photos/400/600?random=3" alt="Scenic nature portrait image 3" loading="lazy" width="400" height="600">
+        <img src="https://picsum.photos/400/600?random=4" alt="Scenic nature portrait image 4" loading="lazy" width="400" height="600">
+        <img src="https://picsum.photos/400/600?random=5" alt="Scenic nature portrait image 5" loading="lazy" width="400" height="600">
+        <img src="https://picsum.photos/400/600?random=6" alt="Scenic nature portrait image 6" loading="lazy" width="400" height="600">
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | João Ricardo Ribeiro da Silva | São Paulo, Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
