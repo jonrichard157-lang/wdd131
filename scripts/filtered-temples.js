@@ -54,28 +54,28 @@ const temples = [
         location: "São Paulo, Brazil",
         dedicated: "1978, October, 30",
         area: 59246,
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Sao_Paulo_Brazil_Temple.jpg"
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/sao-paulo-brazil/400x250/sao-paulo-brazil-temple-lds-910800-wallpaper.jpg"
     },
     {
         templeName: "Logan Utah",
         location: "Logan, Utah, United States",
         dedicated: "1884, May, 17",
         area: 119619,
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/84/Logan_Temple.jpg"
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/logan-utah/400x250/logan-temple-768086-wallpaper.jpg"
     },
     {
         templeName: "St. George Utah",
         location: "St. George, Utah, United States",
         dedicated: "1877, April, 6",
         area: 143969,
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a7/St._George_Utah_Temple_2013.jpg"
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/st-george-utah/400x250/st-george-temple-lds-894724-wallpaper.jpg"
     },
     {
         templeName: "Salt Lake",
         location: "Salt Lake City, Utah, United States",
         dedicated: "1893, April, 6",
         area: 253015,
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/93/Salt_Lake_Temple%2C_Utah_-_Sept_2004-2.jpg"
+        imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/400x250/salt-lake-temple-37762.jpg"
     }
 ];
 
