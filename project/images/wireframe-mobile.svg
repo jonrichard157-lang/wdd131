@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 840" width="380" height="840" role="img" aria-label="Mobile Wireframe Layout for DevPulse AI Home Page">
+  <defs>
+    <style>
+      .wf-bg { fill: #f8fafc; }
+      .wf-card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; rx: 6px; }
+      .wf-header { fill: #0f172a; }
+      .wf-hero { fill: #eff6ff; stroke: #bfdbfe; stroke-width: 1.5; rx: 6px; }
+      .wf-btn { fill: #2563eb; rx: 4px; }
+      .wf-accent { fill: #06b6d4; }
+      .wf-title { font-family: 'Montserrat', sans-serif; font-weight: 700; fill: #0f172a; font-size: 14px; }
+      .wf-label { font-family: 'Montserrat', sans-serif; font-weight: 600; fill: #ffffff; font-size: 12px; }
+      .wf-text { font-family: 'Roboto', sans-serif; font-size: 11px; fill: #64748b; }
+      .wf-tag { font-family: 'Roboto', sans-serif; font-size: 9px; font-weight: 500; fill: #1e40af; }
+      .wf-line { stroke: #cbd5e1; stroke-width: 1; stroke-dasharray: 3 3; }
+    </style>
+  </defs>
+
+  <!-- Device Frame -->
+  <rect x="5" y="5" width="370" height="830" rx="28" fill="#ffffff" stroke="#94a3b8" stroke-width="3" />
+  <!-- Screen Area -->
+  <rect x="15" y="30" width="350" height="780" rx="10" class="wf-bg" />
+
+  <!-- Speaker & Camera notch -->
+  <rect x="150" y="15" width="80" height="5" rx="2.5" fill="#94a3b8" />
+  <circle cx="135" cy="17.5" r="3" fill="#94a3b8" />
+
+  <!-- HEADER -->
+  <rect x="15" y="30" width="350" height="50" class="wf-header" />
+  <text x="30" y="60" class="wf-label" font-size="14">DevPulse<tspan fill="#38bdf8">AI</tspan></text>
+  <!-- Hamburger icon -->
+  <rect x="325" y="48" width="22" height="2.5" rx="1" fill="#ffffff" />
+  <rect x="325" y="54" width="22" height="2.5" rx="1" fill="#ffffff" />
+  <rect x="325" y="60" width="22" height="2.5" rx="1" fill="#ffffff" />
+
+  <!-- WIREFRAME ANNOTATION BADGE -->
+  <rect x="120" y="86" width="140" height="18" rx="9" fill="#dbeafe" />
+  <text x="190" y="99" text-anchor="middle" class="wf-tag">MOBILE VIEW (1-COLUMN)</text>
+
+  <!-- HERO SECTION -->
+  <rect x="25" y="112" width="330" height="130" class="wf-hero" />
+  <text x="40" y="136" class="wf-title" font-size="15">Empower Your Code with AI</text>
+  <text x="40" y="156" class="wf-text">Next-gen prompts &amp; autonomous dev agents.</text>
+  <text x="40" y="172" class="wf-text">Accelerate development &amp; eliminate repetitive tasks.</text>
+  <!-- Hero CTA Button -->
+  <rect x="40" y="188" width="130" height="34" class="wf-btn" />
+  <text x="105" y="210" text-anchor="middle" class="wf-label">Get Started &rarr;</text>
+  <rect x="180" y="188" width="110" height="34" rx="4" fill="#ffffff" stroke="#2563eb" stroke-width="1.5" />
+  <text x="235" y="210" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="600" fill="#2563eb" font-size="11">View Guide</text>
+
+  <!-- SECTION 1: OVERVIEW CARD -->
+  <rect x="25" y="254" width="330" height="120" class="wf-card" />
+  <rect x="37" y="266" width="32" height="32" rx="6" fill="#e0f2fe" />
+  <text x="53" y="287" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="700" fill="#0284c7" font-size="16">&lt;/&gt;</text>
+  <text x="78" y="285" class="wf-title">AI in Full-Stack Development</text>
+  <text x="40" y="316" class="wf-text">Overview of modern generative coding assistants</text>
+  <text x="40" y="332" class="wf-text">and automated code review pipelines.</text>
+  <text x="40" y="356" font-family="'Montserrat', sans-serif" font-weight="600" font-size="11" fill="#2563eb">Learn more &rarr;</text>
+
+  <!-- SECTION 2: PROMPT ENGINEERING CARD -->
+  <rect x="25" y="386" width="330" height="135" class="wf-card" />
+  <rect x="37" y="398" width="32" height="32" rx="6" fill="#fef3c7" />
+  <text x="53" y="420" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="700" fill="#d97706" font-size="16">&#9881;</text>
+  <text x="78" y="417" class="wf-title">Prompt Engineering for Code</text>
+  <text x="40" y="448" class="wf-text">Structuring precise prompts for refactoring, test</text>
+  <text x="40" y="464" class="wf-text">generation, and debugging in JS &amp; Python.</text>
+  <!-- Mini code mock box -->
+  <rect x="40" y="478" width="300" height="26" rx="4" fill="#0f172a" />
+  <text x="50" y="495" font-family="monospace" font-size="10" fill="#38bdf8">&gt; role: refactor --lang python --strict</text>
+
+  <!-- SECTION 3: INTELLIGENT AGENTS CARD -->
+  <rect x="25" y="533" width="330" height="135" class="wf-card" />
+  <rect x="37" y="545" width="32" height="32" rx="6" fill="#ecfdf5" />
+  <text x="53" y="567" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="700" fill="#059669" font-size="16">&#9729;</text>
+  <text x="78" y="564" class="wf-title">Autonomous Agents &amp; APIs</text>
+  <text x="40" y="595" class="wf-text">Architecture blueprints for autonomous task runners</text>
+  <text x="40" y="611" class="wf-text">connected to messaging APIs (Slack, Telegram, WhatsApp).</text>
+  <!-- Status badge -->
+  <rect x="40" y="628" width="130" height="22" rx="4" fill="#06b6d4" />
+  <text x="105" y="643" text-anchor="middle" class="wf-label" font-size="10">Interactive Agent Demo</text>
+
+  <!-- FOOTER -->
+  <rect x="15" y="682" width="350" height="128" class="wf-header" />
+  <text x="30" y="710" class="wf-label" font-size="13">DevPulse AI</text>
+  <text x="30" y="730" class="wf-text" fill="#94a3b8">© 2026 DevPulse AI | João Silva</text>
+  <text x="30" y="748" class="wf-text" fill="#94a3b8">WDD 131 Dynamic Web Fundamentals</text>
+  <line x1="30" y1="760" x2="335" y2="760" stroke="#334155" stroke-width="1" />
+  <text x="30" y="785" font-family="'Roboto', sans-serif" font-size="10" fill="#38bdf8">Home  |  Prompts  |  Agents  |  References</text>
+</svg>
