@@ -205,7 +205,7 @@ li strong {
     padding: 0.85rem;
 }
 
-.swatch-info h4 {
+.swatch-info h3 {
     font-family: var(--heading-font);
     font-size: 1rem;
     color: var(--primary-color);

@@ -20,7 +20,7 @@
   <!-- Screen Area -->
   <rect x="15" y="30" width="350" height="780" rx="10" class="wf-bg" />
 
-  <!-- Speaker & Camera notch -->
+  <!-- Speaker and Camera notch -->
   <rect x="150" y="15" width="80" height="5" rx="2.5" fill="#94a3b8" />
   <circle cx="135" cy="17.5" r="3" fill="#94a3b8" />
 
@@ -43,7 +43,7 @@
   <text x="40" y="172" class="wf-text">Accelerate development &amp; eliminate repetitive tasks.</text>
   <!-- Hero CTA Button -->
   <rect x="40" y="188" width="130" height="34" class="wf-btn" />
-  <text x="105" y="210" text-anchor="middle" class="wf-label">Get Started &rarr;</text>
+  <text x="105" y="210" text-anchor="middle" class="wf-label">Get Started &#8594;</text>
   <rect x="180" y="188" width="110" height="34" rx="4" fill="#ffffff" stroke="#2563eb" stroke-width="1.5" />
   <text x="235" y="210" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="600" fill="#2563eb" font-size="11">View Guide</text>
 
@@ -54,7 +54,7 @@
   <text x="78" y="285" class="wf-title">AI in Full-Stack Development</text>
   <text x="40" y="316" class="wf-text">Overview of modern generative coding assistants</text>
   <text x="40" y="332" class="wf-text">and automated code review pipelines.</text>
-  <text x="40" y="356" font-family="'Montserrat', sans-serif" font-weight="600" font-size="11" fill="#2563eb">Learn more &rarr;</text>
+  <text x="40" y="356" font-family="'Montserrat', sans-serif" font-weight="600" font-size="11" fill="#2563eb">Learn more &#8594;</text>
 
   <!-- SECTION 2: PROMPT ENGINEERING CARD -->
   <rect x="25" y="386" width="330" height="135" class="wf-card" />
@@ -81,7 +81,7 @@
   <!-- FOOTER -->
   <rect x="15" y="682" width="350" height="128" class="wf-header" />
   <text x="30" y="710" class="wf-label" font-size="13">DevPulse AI</text>
-  <text x="30" y="730" class="wf-text" fill="#94a3b8">© 2026 DevPulse AI | João Silva</text>
+  <text x="30" y="730" class="wf-text" fill="#94a3b8">&#169; 2026 DevPulse AI | João Silva</text>
   <text x="30" y="748" class="wf-text" fill="#94a3b8">WDD 131 Dynamic Web Fundamentals</text>
   <line x1="30" y1="760" x2="335" y2="760" stroke="#334155" stroke-width="1" />
   <text x="30" y="785" font-family="'Roboto', sans-serif" font-size="10" fill="#38bdf8">Home  |  Prompts  |  Agents  |  References</text>

@@ -31,7 +31,7 @@
   <!-- Page Background Canvas -->
   <rect x="5" y="37" width="950" height="598" class="wf-bg" />
 
-  <!-- HEADER & NAVIGATION -->
+  <!-- HEADER and NAVIGATION -->
   <rect x="5" y="37" width="950" height="56" class="wf-header" />
   <!-- Logo -->
   <text x="35" y="72" class="wf-label" font-size="18">DevPulse<tspan fill="#38bdf8">AI</tspan></text>
@@ -55,7 +55,7 @@
   <text x="50" y="194" class="wf-text">A practical developer guide exploring the transformation of coding, precision prompt</text>
   <text x="50" y="212" class="wf-text">engineering in JS/Python, and autonomous agents integrated with real-world messaging APIs.</text>
   <rect x="50" y="232" width="130" height="38" class="wf-btn" />
-  <text x="115" y="256" text-anchor="middle" class="wf-label">Read Full Guide &rarr;</text>
+  <text x="115" y="256" text-anchor="middle" class="wf-label">Read Full Guide &#8594;</text>
   <rect x="195" y="232" width="120" height="38" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="1.5" />
   <text x="255" y="256" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="600" fill="#2563eb" font-size="12">Explore Agents</text>
 
@@ -82,7 +82,7 @@
   <text x="45" y="396" class="wf-text">software lifecycle: architecture, coding,</text>
   <text x="45" y="414" class="wf-text">and automated peer code review.</text>
   <rect x="45" y="435" width="95" height="26" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
-  <text x="92" y="452" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#2563eb">Explore Topic &rarr;</text>
+  <text x="92" y="452" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#2563eb">Explore Topic &#8594;</text>
 
   <!-- Column 2: Prompt Engineering -->
   <rect x="338" y="306" width="285" height="175" class="wf-card" />
@@ -93,7 +93,7 @@
   <text x="353" y="396" class="wf-text">generating, refactoring, and fixing code</text>
   <text x="353" y="414" class="wf-text">across JavaScript, Python, and SQL.</text>
   <rect x="353" y="435" width="95" height="26" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
-  <text x="400" y="452" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#2563eb">Explore Topic &rarr;</text>
+  <text x="400" y="452" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#2563eb">Explore Topic &#8594;</text>
 
   <!-- Column 3: Intelligent Agents -->
   <rect x="645" y="306" width="285" height="175" class="wf-card" />
@@ -104,20 +104,20 @@
   <text x="660" y="396" class="wf-text">connecting autonomous agents with</text>
   <text x="660" y="414" class="wf-text">messaging APIs and customer workflows.</text>
   <rect x="660" y="435" width="95" height="26" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
-  <text x="707" y="452" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#2563eb">Explore Topic &rarr;</text>
+  <text x="707" y="452" text-anchor="middle" font-family="'Montserrat', sans-serif" font-weight="600" font-size="10" fill="#2563eb">Explore Topic &#8594;</text>
 
   <!-- WORKFLOW STRIP -->
   <rect x="30" y="495" width="900" height="45" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1" />
   <text x="50" y="522" class="wf-title" font-size="13">Workflow Pipeline:</text>
   <rect x="180" y="505" width="135" height="25" rx="4" fill="#ffffff" stroke="#2563eb" stroke-width="1" />
   <text x="247" y="521" text-anchor="middle" class="wf-text" fill="#2563eb" font-weight="600">1. Structured Prompt</text>
-  <text x="330" y="522" font-family="'Roboto', sans-serif" font-size="14" fill="#64748b">&rarr;</text>
+  <text x="330" y="522" font-family="'Roboto', sans-serif" font-size="14" fill="#64748b">&#8594;</text>
   <rect x="350" y="505" width="145" height="25" rx="4" fill="#ffffff" stroke="#2563eb" stroke-width="1" />
   <text x="422" y="521" text-anchor="middle" class="wf-text" fill="#2563eb" font-weight="600">2. Autonomous Agent</text>
-  <text x="510" y="522" font-family="'Roboto', sans-serif" font-size="14" fill="#64748b">&rarr;</text>
+  <text x="510" y="522" font-family="'Roboto', sans-serif" font-size="14" fill="#64748b">&#8594;</text>
   <rect x="530" y="505" width="145" height="25" rx="4" fill="#ffffff" stroke="#2563eb" stroke-width="1" />
   <text x="602" y="521" text-anchor="middle" class="wf-text" fill="#2563eb" font-weight="600">3. Messaging API Sync</text>
-  <text x="690" y="522" font-family="'Roboto', sans-serif" font-size="14" fill="#64748b">&rarr;</text>
+  <text x="690" y="522" font-family="'Roboto', sans-serif" font-size="14" fill="#64748b">&#8594;</text>
   <rect x="710" y="505" width="130" height="25" rx="4" fill="#dcfce7" stroke="#16a34a" stroke-width="1" />
   <text x="775" y="521" text-anchor="middle" class="wf-text" fill="#15803d" font-weight="600">4. Automated Result</text>
 
@@ -125,7 +125,7 @@
   <rect x="5" y="555" width="950" height="80" class="wf-header" />
   <text x="35" y="585" class="wf-label" font-size="14">DevPulse<tspan fill="#38bdf8">AI</tspan></text>
   <text x="35" y="605" class="wf-text" fill="#94a3b8">Practical Guide to AI-Driven Software Engineering</text>
-  <text x="480" y="585" text-anchor="middle" class="wf-text" fill="#94a3b8">&copy; 2026 DevPulse AI | João Ricardo Ribeiro da Silva | WDD 131</text>
-  <text x="480" y="605" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="11" fill="#38bdf8">Home  &bull;  Prompt Engineering  &bull;  Intelligent Agents  &bull;  References</text>
+  <text x="480" y="585" text-anchor="middle" class="wf-text" fill="#94a3b8">&#169; 2026 DevPulse AI | João Ricardo Ribeiro da Silva | WDD 131</text>
+  <text x="480" y="605" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="11" fill="#38bdf8">Home  &#8226;  Prompt Engineering  &#8226;  Intelligent Agents  &#8226;  References</text>
   <text x="910" y="595" text-anchor="end" class="wf-text" fill="#64748b">São Paulo, Brazil</text>
 </svg>
